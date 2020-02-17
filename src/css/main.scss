@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
+
+$c-main: #314584;
+$c-second: #ff3946;
+$c-grey-1: #6e757a;
+$c-grey-2: #f4fafe;
+
+$fz-big: 74px;
+$fz-medium: 48px;
+$fz-avg: 18px;
+$fz-small: 14px;
+
+body {
+	font-size: $fz-avg;
+	font-weight: 400;
+	color: $c-main;
+}
+
+.header {
+	
+}
+
+.navbar {
+	margin-top: 50px;
+	align-items: center;
+	font-weight: 600;
+
+	.navbar__item {
+		display: inline-block;
+		margin: 0 15px;
+		color: $c-main;
+
+		transition: .5s;
+
+		&:hover {
+			color: $c-main*2%;
+		}
+	}
+
+	.contact__button {
+		padding: 15px 20px;
+		box-shadow: -3px 5px 5px #e0ddea, -1px -2px 3px #e0ddea;
+		color: $c-second;
+		background-color: #fff;
+		font-weight: 600;
+
+		&:hover {
+			background-color: $c-second;
+			color: #fff;
+		}
+	}
+
+}
+

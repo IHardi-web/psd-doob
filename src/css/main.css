@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap");
+body {
+  font-size: 18px;
+  font-weight: 400;
+  color: #314584; }
+
+.navbar {
+  margin-top: 50px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600; }
+  .navbar .navbar__item {
+    display: inline-block;
+    margin: 0 15px;
+    color: #314584;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
+    .navbar .navbar__item:hover {
+      color: #628aff; }
+  .navbar .contact__button {
+    padding: 15px 20px;
+    -webkit-box-shadow: -3px 5px 5px #e0ddea, -1px -2px 3px #e0ddea;
+    box-shadow: -3px 5px 5px #e0ddea, -1px -2px 3px #e0ddea;
+    color: #ff3946;
+    background-color: #fff;
+    font-weight: 600; }
+    .navbar .contact__button:hover {
+      background-color: #ff3946;
+      color: #fff; }
