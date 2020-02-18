@@ -8,6 +8,10 @@
 		text-align: center;
 	}
 
+	.section__information {
+		margin: 40px 0;
+	}
+
 	.buttons-block {
 		margin: auto;
 	}

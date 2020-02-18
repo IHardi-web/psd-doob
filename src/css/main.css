@@ -58,6 +58,11 @@ body {
   color: #6e757a;
   margin-bottom: 2rem; }
 
+.section-content .section__information {
+  text-transform: uppercase;
+  color: #ff3946;
+  font-weight: 600; }
+
 .buttons-block {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -84,6 +89,8 @@ body {
     .buttons-block .button__highlighted:hover {
       background-color: #fff;
       color: #ff3946; }
+  .buttons-block .button--arrow {
+    font-size: 18px; }
 
 .dropdown-menu {
   background-color: #314584; }

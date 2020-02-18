@@ -85,6 +85,12 @@ body {
 		color: $c-grey-1;
 		margin-bottom: 2rem;
 	}
+
+	.section__information {
+		text-transform: uppercase;
+		color: $c-second;
+		font-weight: 600;
+	}
 }
 
 .buttons-block {
@@ -114,6 +120,10 @@ body {
 			background-color: #fff;
 			color: $c-second;
 		}
+	}
+
+	.button--arrow {
+		font-size: $fz-avg;
 	}
 }
 
