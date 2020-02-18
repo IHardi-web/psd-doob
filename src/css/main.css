@@ -6,7 +6,7 @@ body {
   color: #314584; }
 
 .header {
-  margin-bottom: 200px; }
+  margin-bottom: 150px; }
   .header-content {
     margin-top: 10%; }
   .header--background {
@@ -79,6 +79,8 @@ body {
     .buttons-block .section__button:hover {
       color: #628aff; }
   .buttons-block .button__highlighted {
+    -webkit-box-shadow: -1px 5px 3px #ffe6e8;
+    box-shadow: -1px 5px 3px #ffe6e8;
     color: #fff;
     background: #ff3946;
     border-radius: 30px;
@@ -106,7 +108,8 @@ body {
       color: #314584; }
 
 .service-block {
-  padding: 30px 40px; }
+  padding: 30px 40px;
+  background: #fff; }
   .service-block__picture {
     margin-bottom: 60px; }
   .service-block__title {
@@ -114,3 +117,36 @@ body {
     font-weight: 600; }
   .service-block__text {
     font-size: 14px; }
+
+.shape-left {
+  position: relative; }
+  .shape-left .background-shape-services {
+    position: absolute;
+    left: 0;
+    top: 17%;
+    z-index: -3; }
+  .shape-left .background-shape-portfolio {
+    position: absolute;
+    left: 0;
+    top: 17%;
+    z-index: -3; }
+
+.shape-right {
+  position: relative; }
+  .shape-right .background-shape-about {
+    position: absolute;
+    right: 0;
+    bottom: -17%;
+    z-index: -3; }
+
+.portfolio {
+  background: url("../img/portfolio/shape-left.png") left no-repeat; }
+  .portfolio__item {
+    display: block;
+    margin: 15px 0; }
+  .portfolio__btn {
+    text-transform: capitalize;
+    color: #ff3946;
+    font-weight: 600;
+    background: none;
+    margin: auto; }

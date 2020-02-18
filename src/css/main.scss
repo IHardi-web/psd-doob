@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-	margin-bottom: 200px;
+	margin-bottom: 150px;
 
 	&-content {
 		margin-top: 10%;
@@ -110,6 +110,7 @@ body {
 	}
 
 	.button__highlighted {
+		box-shadow: -1px 5px 3px #ffe6e8;
 		color: #fff;
 		background: $c-second;
 		border-radius: 30px;
@@ -147,6 +148,7 @@ body {
 
 .service-block {
 	padding: 30px 40px;
+	background: #fff;
 
 	&__picture {
 		margin-bottom: 60px;
@@ -160,4 +162,51 @@ body {
 	&__text {
 		font-size: $fz-small;
 	}
+}
+
+.shape-left {
+	position: relative;
+
+	.background-shape-services {
+		position: absolute;
+		left: 0;
+		top: 17%;
+		z-index: -3;
+	}
+
+	.background-shape-portfolio {
+		position: absolute;
+		left: 0;
+		top: 17%;
+		z-index: -3;
+	}
+}
+
+.shape-right {
+	position: relative;
+
+	.background-shape-about {
+		position: absolute;
+		right: 0;
+		bottom: -17%;
+		z-index: -3;
+	}
+}
+
+.portfolio {
+	background: url("../img/portfolio/shape-left.png") left no-repeat;
+
+	&__item {
+		display: block;
+		margin: 15px 0;
+	}
+
+	&__btn {
+		text-transform: capitalize;
+		color: $c-second;
+		font-weight: 600;
+		background: none;
+		margin: auto;
+	}
+
 }
