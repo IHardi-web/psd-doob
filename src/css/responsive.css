@@ -9,8 +9,11 @@
 	}
 
 	.buttons-block {
-		justify-content: space-between;
 		margin: auto;
+	}
+
+	.service-block {
+		margin: 40px;
 	}
 }
 
