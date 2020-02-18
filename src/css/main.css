@@ -150,3 +150,39 @@ body {
     font-weight: 600;
     background: none;
     margin: auto; }
+
+.blog-item {
+  padding: 40px;
+  margin: 15px;
+  background: #fff;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+  .blog-item .blog__title {
+    font-weight: 600; }
+  .blog-item .blog__date {
+    font-size: 14px;
+    color: #6e757a;
+    margin-bottom: 1.5rem;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
+  .blog-item .blog__text {
+    margin-bottom: 1rem; }
+  .blog-item .button--arrow {
+    float: right;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ff3946;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
+    .blog-item .button--arrow:hover {
+      color: #314584 !important; }
+  .blog-item:hover {
+    background: #ff3946;
+    color: #fff; }
+    .blog-item:hover .blog__date {
+      color: #fff; }
+    .blog-item:hover .button--arrow {
+      color: #fff; }

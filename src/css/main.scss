@@ -210,3 +210,51 @@ body {
 	}
 
 }
+
+
+.blog-item {
+	padding: 40px;
+	margin: 15px;
+	background: #fff;
+	transition: .5s;
+
+	.blog__title {
+		font-weight: 600;
+	}
+
+	.blog__date {
+		font-size: $fz-small;
+		color: $c-grey-1;
+		margin-bottom: 1.5rem;
+		transition: .5s;
+	}
+
+	.blog__text {
+		margin-bottom: 1rem;
+	}
+
+	.button--arrow {
+		float: right;
+		font-size: 30px;
+		font-weight: 400;
+		color: $c-second;
+		transition: .5s;
+
+		&:hover {
+			color: $c-main !important;
+		}
+	}
+
+	&:hover {
+		background: $c-second;
+		color: #fff;
+
+		.blog__date {
+			color: #fff;
+		}
+		
+		.button--arrow {
+			color: #fff;
+		}
+	}
+}
