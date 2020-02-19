@@ -211,6 +211,10 @@ body {
 
 }
 
+.blog {
+	background: url("../img/blog/shape-right.png") bottom right no-repeat;
+}
+
 
 .blog-item {
 	padding: 40px;
@@ -256,5 +260,15 @@ body {
 		.button--arrow {
 			color: #fff;
 		}
+	}
+}
+
+
+.input-block {
+	.input__item input {
+		padding: 20px;
+		margin: 15px 0;
+		
+		background: $c-grey-2;
 	}
 }
