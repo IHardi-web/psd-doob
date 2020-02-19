@@ -218,7 +218,6 @@ body {
 
 .blog-item {
 	padding: 40px;
-	margin: 15px;
 	background: #fff;
 	transition: .5s;
 
@@ -238,7 +237,9 @@ body {
 	}
 
 	.button--arrow {
-		float: right;
+		display: flex;
+		justify-content: flex-end;
+		
 		font-size: 30px;
 		font-weight: 400;
 		color: $c-second;
@@ -265,10 +266,20 @@ body {
 
 
 .input-block {
-	.input__item input {
+	.input__item {
 		padding: 20px;
 		margin: 15px 0;
-		
 		background: $c-grey-2;
+		font-weight: 600;
+		color: $c-main;
+
+		&::placeholder {
+			color: $c-main;
+		}
+	}
+
+	.input__item--large {
+		height: 200px;
+		margin-bottom: 50px;
 	}
 }

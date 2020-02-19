@@ -156,7 +156,6 @@ body {
 
 .blog-item {
   padding: 40px;
-  margin: 15px;
   background: #fff;
   -webkit-transition: .5s;
   -o-transition: .5s;
@@ -173,7 +172,12 @@ body {
   .blog-item .blog__text {
     margin-bottom: 1rem; }
   .blog-item .button--arrow {
-    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     font-size: 30px;
     font-weight: 400;
     color: #ff3946;
@@ -190,7 +194,21 @@ body {
     .blog-item:hover .button--arrow {
       color: #fff; }
 
-.input-block .input__item input {
+.input-block .input__item {
   padding: 20px;
   margin: 15px 0;
-  background: #f4fafe; }
+  background: #f4fafe;
+  font-weight: 600;
+  color: #314584; }
+  .input-block .input__item::-webkit-input-placeholder {
+    color: #314584; }
+  .input-block .input__item:-ms-input-placeholder {
+    color: #314584; }
+  .input-block .input__item::-ms-input-placeholder {
+    color: #314584; }
+  .input-block .input__item::placeholder {
+    color: #314584; }
+
+.input-block .input__item--large {
+  height: 200px;
+  margin-bottom: 50px; }

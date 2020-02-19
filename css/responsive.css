@@ -19,6 +19,10 @@
 	.service-block {
 		margin: 40px;
 	}
+
+	.blog-item {
+		margin: 15px 0;
+	}
 }
 
 @media screen and (max-width: 768px) {
