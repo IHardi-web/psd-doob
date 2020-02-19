@@ -64,6 +64,14 @@ body {
 
 .section {
 	padding: 100px 0;
+
+	.footer {
+		padding-bottom: 10px;
+	}
+}
+
+.section--blue {
+	background: $c-main;
 }
 
 
@@ -281,5 +289,46 @@ body {
 	.input__item--large {
 		height: 200px;
 		margin-bottom: 50px;
+	}
+}
+
+
+
+.footer-info {
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+
+	&__title {
+		text-transform: uppercase;
+	}
+	&__subtitle {
+		text-transform: uppercase;
+		font-size: $fz-medium;
+		color: $c-second;
+	}
+	&__copyright {
+		font-size: $fz-small;
+		font-weight: 400;
+		margin: 40px 0 20px 0;
+	}
+
+	.link-block {
+		margin: 20px 0;
+
+		
+		.footer-link__item {
+			display: inline-block;
+			color: #fff;
+			margin: 20px;
+			transition: .5s;
+
+			&:hover {
+				color: $c-second;
+			}
+		}
+		.link--social {
+			font-size: $fz-medium;
+		}
 	}
 }
