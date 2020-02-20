@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
 
 $c-main: #314584;
+$c-main-hover: #536795;
 $c-second: #ff3946;
 $c-grey-1: #6e757a;
 $c-grey-2: #f4fafe;
@@ -44,7 +45,7 @@ body {
 		transition: .5s;
 
 		&:hover {
-			color: $c-main*2%;
+			color: $c-main-hover;
 		}
 	}
 
@@ -113,7 +114,7 @@ body {
 		transition: .5s;
 
 		&:hover {
-			color: $c-main*2%;
+			color: $c-main-hover;
 		}
 	}
 
