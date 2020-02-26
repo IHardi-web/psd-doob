@@ -213,6 +213,10 @@ body {
 		margin: 15px 0;
 	}
 
+	&--hidden {
+		display: none;
+	}
+
 	&__btn {
 		text-transform: capitalize;
 		color: $c-second;

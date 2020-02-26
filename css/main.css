@@ -143,6 +143,8 @@ body {
   .portfolio__item {
     display: block;
     margin: 15px 0; }
+  .portfolio--hidden {
+    display: none; }
   .portfolio__btn {
     text-transform: capitalize;
     color: #ff3946;
