@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap');
 
+@import "bootstrap.min";
+@import "_reset";
+@import "_responsive";
+
 $c-main: #314584;
 $c-main-hover: #536795;
 $c-second: #ff3946;
